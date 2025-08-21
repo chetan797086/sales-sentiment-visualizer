@@ -1,67 +1,61 @@
-# IBY Sales Communication Analyzer
+IBY Sales Communication Analyzer
+
+A smart communication analysis dashboard designed to track client sentiment, mood distribution, and psychological safety in sales interactions. This project focuses on UX research, UI design, and interactive visualization, built using Figma, HTML, CSS, and JavaScript.
+
+✨ Features
+
+📊 Mood Distribution Charts – Visualizes positive, neutral, and negative sentiments in client messages.
+
+🔍 Sentiment Scoring – Calculates communication health score (0–100).
+
+⚠️ Risk Alerts – Highlights potential negative communication risks in real time.
+
+🧑‍🤝‍🧑 UX-Centered Design – Personas, journey mapping, and accessibility-focused layouts.
+
+🎨 Clean & Modern UI – Built with micro-interactions and intuitive workflows.
+
+🛠️ Tech Stack
+
+Frontend: HTML, CSS, JavaScript
+
+Design & Prototyping: Figma, Adobe XD
+
+Illustrations & Visuals: Adobe Illustrator
+
+Video/Promo Editing: Adobe Premiere Pro (optional for demos)
+
+📂 Project Structure
+├── index.html         # Main dashboard page  
+├── style.css          # Styling for UI components  
+├── script.js          # Sentiment analysis logic  
+├── /assets            # Images, icons, and design assets  
+└── README.md          # Project documentation  
+
+🚀 Getting Started
+
+Clone the repository:
+
+git clone https://github.com/your-username/iby-sales-communication-analyzer.git
 
 
----
+Navigate to the project folder:
 
-## 🚀 Project Overview
-This project analyzes **online sales communication** (emails, chats, client messages) to evaluate **psychological safety** and **client sentiment**. It provides sales managers with a quick dashboard that shows:
-- ✅ Psychological Safety Score (0–100)
-- ✅ Mood Distribution (Positive / Neutral / Negative)
-- ✅ Risk Alerts (⚠ High Risk or ✅ Low Risk)
-
----
-
-## 🛠 Features
-- Add new client messages dynamically
-- Analyze tone using basic keyword detection
-- Visualize sentiment with an interactive bar chart
-- Show real-time safety score & risk level
-
----
-
-## 📂 File Structure
-```
-index.html   → Main dashboard 
-README.md    → Project documentation
-```
-
----
+cd iby-sales-communication-analyzer
 
 
-
-## 👩‍💼 Persona
-**Anita, 29, Sales Manager (Mumbai)**
-- Goals: Track client sentiment, improve deal closing
-- Pain Points: Too much chat data to analyze manually
-- Needs: A quick dashboard for mood & risk alerts
-
----
-
-## 🔍 Customer Journey
-1. Client sends messages
-2. IBY scans for tone (positive/negative/neutral)
-3. Dashboard updates safety score + distribution
-4. Manager acts on insights
-
----
-
-## 📌 This project demonstrates:
-
-- **UX Research** → use case, persona, journey map
-- **UI Design** → clean HTML/CSS interface
-- **Prototyping** → interactive analysis with JavaScript
-- **Problem-Solving & Professionalism** → risk detection & reporting
-
----
+Open index.html in your browser.
 
 
 
----
+📌 Future Enhancements
 
-## ✨ Future Improvements
-- Use AI/NLP for advanced sentiment analysis
-- Export reports as PDF/CSV
-- Add role-based login for managers/employees
+Integration with real NLP models (e.g., Hugging Face, TensorFlow).
+
+Exportable sentiment reports for sales teams.
+
+Multi-language sentiment support for global clients.
+
+
 
 ---
 
